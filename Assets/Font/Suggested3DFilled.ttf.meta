@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 7b35a7e89cf336f4a8076c712293bdd2
+timeCreated: 1531293781
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Suggested 3D Filled
+  fontNames:
+  - Suggested 3D Filled
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

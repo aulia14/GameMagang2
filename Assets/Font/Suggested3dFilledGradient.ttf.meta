@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: b36f1b14ee465384ca30d129a6bdc3df
+timeCreated: 1531293781
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: 'Suggested 3d Filled Gradient '
+  fontNames:
+  - 'Suggested 3d Filled Gradient '
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 18e6c3ad433f28c40be7f9d4ccb7f810, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
