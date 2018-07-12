@@ -13,14 +13,14 @@ namespace Complete
         public float m_StartDelay = 3f;      
         public float m_EndDelay = 3f;        
         public CameraControl m_CameraControl; 
-        public Text m_MessageText;
-        public Text mPoint;
+        //public Text m_MessageText;
+        //public Text mPoint;
         public GameObject GameOver;
         public GameObject WinMission;
         private int point;
         private int life ;
         public Text m_Life;                  
-		 public GameObject[] m_TankPrefabs;
+		public GameObject[] m_TankPrefabs;
         public TankManager[] m_Tanks;              
 		public List<Transform> wayPointsForAI;
         
@@ -34,13 +34,13 @@ namespace Complete
 	    public void PlayAgainGameOver()
         {
         ResetPlay();
-		SceneManager.LoadScene(0);
+		SceneManager.LoadScene("Stage1");
 		m_GameOverPanel.SetActive(false);
 		Time.timeScale =1f;
 	    }
         public void PlayAgainWinGame(){
         ResetPlay();
-		SceneManager.LoadScene(0);
+		SceneManager.LoadScene("Stage1");
 		m_WinGamePanel.SetActive(false);
 		Time.timeScale =1f;
 	    }
@@ -100,7 +100,7 @@ namespace Complete
             }
             
             
-            mPoint.text = point+" ";
+            //mPoint.text = point+" ";
             m_Life.text = life+"";
         }
 

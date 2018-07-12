@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44504887, g: 0.494641, b: 0.57373893, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1710,7 +1710,7 @@ GameObject:
   - component: {fileID: 704646494}
   - component: {fileID: 704646493}
   m_Layer: 0
-  m_Name: Main Camera (1)
+  m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1980,7 +1980,7 @@ GameObject:
   m_Component:
   - component: {fileID: 773524649}
   m_Layer: 0
-  m_Name: LevelArt (1)
+  m_Name: 'LevelArt '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

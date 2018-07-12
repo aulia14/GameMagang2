@@ -64,6 +64,7 @@ namespace Complete
                 lifeTank--;
                 Debug.Log("The player Death and Score life "+lifeTank);
                 isPlayerDead = m_Dead;
+                RestartDead();
             }
             if(this.transform.CompareTag("Enemy"))
             {
@@ -76,6 +77,10 @@ namespace Complete
             m_ExplosionParticles.Play ();
             m_ExplosionAudio.Play();
             gameObject.SetActive (false);
+        }
+
+        private void RestartDead(){
+            
         }
     }
 }
