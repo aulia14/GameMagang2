@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Change_Tank.unity
     guid: a74433c8a060e5249a90d54584bb91c3
   - enabled: 1
+    path: Assets/SelectLevel.unity
+    guid: 70dda0238c9150042b11eda53e7878c3
+  - enabled: 1
     path: Assets/Stage1.unity
     guid: 6225b6de97fbc5c47acdc341479b196d
   - enabled: 1

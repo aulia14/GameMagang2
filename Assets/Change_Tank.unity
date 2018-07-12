@@ -1749,7 +1749,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 692b4d757edb8a0428a182cdaa1a4dc2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f71d6f9b24f568e49973f586904e3f71, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2653,7 +2653,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: e9f208e26294f354f9a43531496711ca, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 365d3b9971056614fb12faaa35109a2a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4062,17 +4062,17 @@ Prefab:
     - target: {fileID: 224186265254354790, guid: dc2d3493063b41945b688d1991aafc03,
         type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224186265254354790, guid: dc2d3493063b41945b688d1991aafc03,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224562770872009450, guid: dc2d3493063b41945b688d1991aafc03,
         type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4412812239352970, guid: dc2d3493063b41945b688d1991aafc03, type: 2}
       propertyPath: m_LocalPosition.x
@@ -4133,6 +4133,10 @@ Prefab:
     - target: {fileID: 4412812239352970, guid: dc2d3493063b41945b688d1991aafc03, type: 2}
       propertyPath: m_LocalScale.x
       value: 0.25243133
+      objectReference: {fileID: 0}
+    - target: {fileID: 1864232659367936, guid: dc2d3493063b41945b688d1991aafc03, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dc2d3493063b41945b688d1991aafc03, type: 2}
