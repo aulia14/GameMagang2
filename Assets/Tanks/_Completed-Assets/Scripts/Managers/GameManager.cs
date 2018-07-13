@@ -15,8 +15,6 @@ namespace Complete
         public CameraControl m_CameraControl; 
         //public Text m_MessageText;
         //public Text mPoint;
-        public GameObject GameOver;
-        public GameObject WinMission;
         private int point;
         private int life ;
         public Text m_Life;                  
@@ -26,8 +24,6 @@ namespace Complete
         
         private WaitForSeconds m_StartWait;         
         private WaitForSeconds m_EndWait;           
-        private TankManager m_RoundWinner;          
-        private TankManager m_GameWinner;           
         private bool dead =false;
         public GameObject m_GameOverPanel;
         public GameObject m_WinGamePanel;
@@ -44,29 +40,30 @@ namespace Complete
 		m_WinGamePanel.SetActive(false);
 		Time.timeScale =1f;
 	    }
-
-        public int Point
-        {
-            get{
-                return this.point;
-            }
-            set{
-                 this.point = value;
-            }
-        }
-         public  int Life
-        {
-            get{
-                return this.life;
-            }
-            set{
-                 this.life = value;
-            }
-        }
-
+//
+        // public int Point
+        // {
+        //     get{
+        //         return this.point;
+        //     }
+        //     set{
+        //          this.point = value;
+        //     }
+        // }
+        //  public  int Life
+        // {
+        //     get{
+        //         return this.life;
+        //     }
+        //     set{
+        //          this.life = value;
+        //     }
+        // }
+//
         private void Start()
         {
-            
+            m_GameOverPanel.SetActive(false);
+            m_WinGamePanel.SetActive(false);
             life = TankHealth.lifeTank;
             m_StartWait = new WaitForSeconds (m_StartDelay);
             m_EndWait = new WaitForSeconds (m_EndDelay);
@@ -87,19 +84,17 @@ namespace Complete
                 }else if(life<=0)
                 {
                     life =0;
-                    Debug.Log("Game Over");
-                    GameOver.SetActive(true);
+                    Debug.Log("Game Over :"+life);
+                    m_GameOverPanel.SetActive(true);
                     Time.timeScale =0f;
                 }
-            } 
-            
+            }
+            Debug.Log("Cek Player: "+IsPlayerDeath());
             if(IsEnemyExist()){
                 Debug.Log("MAti Kabeh");
                 Time.timeScale =0f;
-                WinMission.SetActive(true);
+                m_WinGamePanel.SetActive(true);
             }
-            
-            
             //mPoint.text = point+" ";
             m_Life.text = life+"";
         }

@@ -24,12 +24,16 @@ namespace Complete
 
         private void Awake ()
         {
+            
             m_ExplosionParticles = Instantiate (m_ExplosionPrefab).GetComponent<ParticleSystem> ();
             m_ExplosionAudio = m_ExplosionParticles.GetComponent<AudioSource> ();
             m_ExplosionParticles.gameObject.SetActive (false);
         }
 
-
+        private void Start() {
+            lifeTank =5;
+            isPlayerDead = false;
+        }
         private void OnEnable()
         {
             m_CurrentHealth = m_StartingHealth;

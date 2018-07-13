@@ -5727,8 +5727,6 @@ MonoBehaviour:
   m_StartDelay: 3
   m_EndDelay: 3
   m_CameraControl: {fileID: 110960451}
-  GameOver: {fileID: 304930168}
-  WinMission: {fileID: 1156251416}
   m_Life: {fileID: 390494858}
   m_TankPrefabs:
   - {fileID: 1864232659367936, guid: dc2d3493063b41945b688d1991aafc03, type: 2}
