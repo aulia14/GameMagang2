@@ -4,25 +4,14 @@ public class CharacterSelector : MonoBehaviour {
 
 	private GameObject[] characterList;
 	private int index;
-	private int characterIndex=0;
 	private void Start() {
-
-		PlayerPrefs.GetInt("CharacterSelected");
+		index = PlayerPrefs.GetInt("CharacterSelected");
+		print("INDEX"+index);
 		characterList = new GameObject[transform.childCount];
 		for(int i=0;i<transform.childCount;i++)
 			characterList[i] = transform.GetChild(i).gameObject;
 		foreach (GameObject t in characterList) t.SetActive(false);
-		if(characterIndex==0) characterList[0].SetActive(true);
-		if(index.Equals( characterList[0])){
-			characterIndex=0;
-			characterList[0].SetActive(true);
-			characterList[1].SetActive(false);
-		} 
-		else if(index.Equals( characterList[1]) )
-		{
-			characterList[0].SetActive(false);
-			characterList[1].SetActive(true);
-		}
+		characterList[index].SetActive(true);
 	}
 	private void Update() {
 

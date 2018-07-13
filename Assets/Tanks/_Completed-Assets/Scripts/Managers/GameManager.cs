@@ -31,28 +31,20 @@ namespace Complete
         private bool dead =false;
         public GameObject m_GameOverPanel;
         public GameObject m_WinGamePanel;
-	    public void PlayAgainGameOver()
+	    public void PlayAgainGameOver(string scenename)
         {
         ResetPlay();
-		SceneManager.LoadScene("Stage1");
+		SceneManager.LoadScene(scenename);
 		m_GameOverPanel.SetActive(false);
 		Time.timeScale =1f;
 	    }
-        public void PlayAgainWinGame(){
-        ResetPlay();
-		SceneManager.LoadScene("Stage1");
-		m_WinGamePanel.SetActive(false);
-		Time.timeScale =1f;
-	    }
-        public void MoveNextScene(string scenename){
+        public void PlayAgainWinGame(string scenename){
         ResetPlay();
 		SceneManager.LoadScene(scenename);
 		m_WinGamePanel.SetActive(false);
 		Time.timeScale =1f;
 	    }
-        public void MoveScene(string scenename){
-            SceneManager.LoadScene(scenename);
-        }
+
         public int Point
         {
             get{
