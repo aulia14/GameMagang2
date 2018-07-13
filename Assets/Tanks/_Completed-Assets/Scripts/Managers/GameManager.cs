@@ -44,7 +44,15 @@ namespace Complete
 		m_WinGamePanel.SetActive(false);
 		Time.timeScale =1f;
 	    }
-
+        public void MoveNextScene(string scenename){
+        ResetPlay();
+		SceneManager.LoadScene(scenename);
+		m_WinGamePanel.SetActive(false);
+		Time.timeScale =1f;
+	    }
+        public void MoveScene(string scenename){
+            SceneManager.LoadScene(scenename);
+        }
         public int Point
         {
             get{

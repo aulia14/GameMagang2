@@ -1084,7 +1084,6 @@ GameObject:
   - component: {fileID: 246686241}
   - component: {fileID: 246686240}
   - component: {fileID: 246686239}
-  - component: {fileID: 246686242}
   m_Layer: 5
   m_Name: Button_Retry
   m_TagString: Untagged
@@ -1149,8 +1148,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 246686242}
-        m_MethodName: MovetoScene
+      - m_Target: {fileID: 1554884573}
+        m_MethodName: PlayAgainWinGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1195,18 +1194,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 246686237}
---- !u!114 &246686242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 246686237}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c822b64847768704cb4e348755117f20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  namaScene: Stage2
 --- !u!1 &253034199
 GameObject:
   m_ObjectHideFlags: 0
@@ -1291,7 +1278,6 @@ GameObject:
   - component: {fileID: 263493780}
   - component: {fileID: 263493779}
   - component: {fileID: 263493778}
-  - component: {fileID: 263493781}
   m_Layer: 5
   m_Name: Button_Exit
   m_TagString: Untagged
@@ -1356,15 +1342,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 263493781}
-        m_MethodName: MovetoScene
-        m_Mode: 1
+      - m_Target: {fileID: 1554884573}
+        m_MethodName: MoveScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Single_Player
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -1402,18 +1388,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 263493776}
---- !u!114 &263493781
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 263493776}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c822b64847768704cb4e348755117f20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  namaScene: Single_Player
 --- !u!1 &268001855
 GameObject:
   m_ObjectHideFlags: 0
@@ -2761,7 +2735,6 @@ GameObject:
   - component: {fileID: 688718181}
   - component: {fileID: 688718180}
   - component: {fileID: 688718179}
-  - component: {fileID: 688718178}
   m_Layer: 5
   m_Name: Button_Exit
   m_TagString: Untagged
@@ -2787,18 +2760,6 @@ RectTransform:
   m_AnchoredPosition: {x: -193.61, y: -160}
   m_SizeDelta: {x: 179.21, y: 76.4}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &688718178
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 688718176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c822b64847768704cb4e348755117f20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  namaScene: Single_Player
 --- !u!114 &688718179
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2838,15 +2799,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 688718178}
-        m_MethodName: MovetoScene
-        m_Mode: 1
+      - m_Target: {fileID: 1554884573}
+        m_MethodName: MoveScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Single_Player
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -7419,8 +7380,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1966012606}
-        m_MethodName: MovetoScene
+      - m_Target: {fileID: 1554884573}
+        m_MethodName: PlayAgainGameOver
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7675,7 +7636,6 @@ GameObject:
   - component: {fileID: 2101092622}
   - component: {fileID: 2101092621}
   - component: {fileID: 2101092620}
-  - component: {fileID: 2101092623}
   m_Layer: 5
   m_Name: Button_Next
   m_TagString: Untagged
@@ -7740,15 +7700,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2101092623}
-        m_MethodName: MovetoScene
-        m_Mode: 1
+      - m_Target: {fileID: 1554884573}
+        m_MethodName: MoveScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: UI_Menu
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -7786,18 +7746,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2101092618}
---- !u!114 &2101092623
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2101092618}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c822b64847768704cb4e348755117f20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  namaScene: Stage3
 --- !u!1001 &2129625018
 Prefab:
   m_ObjectHideFlags: 0
