@@ -14,7 +14,7 @@ public class AttackAction : Action
     {
         RaycastHit hit;
 
-        Debug.DrawRay (controller.eyes.position, controller.eyes.forward.normalized * controller.enemyStats.attackRange, Color.red);
+        //Debug.DrawRay (controller.eyes.position, controller.eyes.forward.normalized * controller.enemyStats.attackRange, Color.red);
 
         if (Physics.SphereCast (controller.eyes.position, controller.enemyStats.lookSphereCastRadius, controller.eyes.forward, out hit, controller.enemyStats.attackRange)
             && hit.collider.CompareTag ("Player")) 

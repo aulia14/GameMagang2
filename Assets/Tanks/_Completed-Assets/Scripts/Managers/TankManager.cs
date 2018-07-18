@@ -7,11 +7,9 @@ namespace Complete
 {
     [Serializable]
     public class TankManager
-    {
-        public Color m_PlayerColor;                             
+    {                       
         public Transform m_SpawnPoint;                          
-        [HideInInspector] public int m_PlayerNumber;            
-        [HideInInspector] public string m_ColoredPlayerText;    
+        [HideInInspector] public int m_PlayerNumber;               
         [HideInInspector] public GameObject m_Instance;         
         [HideInInspector] public int m_Wins;                    
 		[HideInInspector] public List<Transform> m_WayPointList;
@@ -30,16 +28,9 @@ namespace Complete
 			m_Shooting.m_PlayerNumber = m_PlayerNumber;
 
 			m_CanvasGameObject = m_Instance.GetComponentInChildren<Canvas> ().gameObject;
-			m_ColoredPlayerText = "<color=#" + ColorUtility.ToHtmlStringRGB(m_PlayerColor) + ">PLAYER " + m_PlayerNumber + "</color>";
-
 			
 			MeshRenderer[] renderers = m_Instance.GetComponentsInChildren<MeshRenderer> ();
 
-			
-			for (int i = 0; i < renderers.Length; i++)
-			{
-				renderers[i].material.color = m_PlayerColor;
-			}
 		}
 
 
@@ -51,14 +42,8 @@ namespace Complete
 
             m_Movement.m_PlayerNumber = m_PlayerNumber;
             m_Shooting.m_PlayerNumber = m_PlayerNumber;
-            m_ColoredPlayerText = "<color=#" + ColorUtility.ToHtmlStringRGB(m_PlayerColor) + ">PLAYER " + m_PlayerNumber + "</color>";
 
             MeshRenderer[] renderers = m_Instance.GetComponentsInChildren<MeshRenderer> ();
-
-            for (int i = 0; i < renderers.Length; i++)
-            {
-                renderers[i].material.color = m_PlayerColor;
-            }
         }
 
         public void DisableControl ()
