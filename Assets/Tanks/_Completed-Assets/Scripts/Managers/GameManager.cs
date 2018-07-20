@@ -89,7 +89,7 @@ namespace Complete
                     Time.timeScale =0f;
                 }
             }
-            Debug.Log("Cek Player: "+IsPlayerDeath());
+            Debug.Log("Cek Player: "+ IsPlayerDeath());
             if(IsEnemyExist()){
                 Debug.Log("MAti Kabeh");
                 Time.timeScale =0f;

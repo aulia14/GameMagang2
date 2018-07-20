@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311947, g: 0.38074005, b: 0.35872722, a: 1}
+  m_IndirectSpecularColor: {r: 0.44299546, g: 0.49218488, b: 0.57191443, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -100,7 +100,7 @@ NavMeshSettings:
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
-    agentSlope: 45
+    agentSlope: 1
     agentClimb: 0.4
     ledgeDropHeight: 0
     maxJumpAcrossDistance: 0
@@ -112,7 +112,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: a0c74d1dbd17d3c47be5ab68e5343915, type: 2}
 --- !u!1 &2651717
 GameObject:
   m_ObjectHideFlags: 0
@@ -291,7 +291,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Single_Player
+          m_StringArgument: SelectLevel
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -762,8 +762,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 9.554071, y: 2.8366528, z: 5.224954}
-  m_Center: {x: 0.44072378, y: 1.3399477, z: -0.00000035762795}
+  m_Size: {x: 6.54, y: 2.8366528, z: 3.99}
+  m_Center: {x: -0.55, y: 1.3399477, z: -0.44}
 --- !u!1 &112852291
 GameObject:
   m_ObjectHideFlags: 0
@@ -1002,7 +1002,6 @@ GameObject:
   - component: {fileID: 201213824}
   - component: {fileID: 201213823}
   - component: {fileID: 201213822}
-  - component: {fileID: 201213821}
   m_Layer: 5
   m_Name: Button_Retry
   m_TagString: Untagged
@@ -1028,18 +1027,6 @@ RectTransform:
   m_AnchoredPosition: {x: 193.61, y: -160}
   m_SizeDelta: {x: 179.21, y: 76.4}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &201213821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 201213819}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c822b64847768704cb4e348755117f20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  namaScene: Stage2
 --- !u!114 &201213822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1087,7 +1074,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage2
+          m_StringArgument: Stage4
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -1201,8 +1188,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 9.554071, y: 2.8366528, z: 5.224954}
-  m_Center: {x: 0.44072378, y: 1.3399477, z: -0.00000035762795}
+  m_Size: {x: 6.59, y: 2.8366528, z: 4}
+  m_Center: {x: -0.36, y: 1.3399477, z: -0.6}
 --- !u!1 &271514999
 GameObject:
   m_ObjectHideFlags: 0
@@ -1547,7 +1534,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 1
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.44117647, g: 0.44117647, b: 0.44117647, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -1865,8 +1852,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 9.554071, y: 2.8366528, z: 5.224954}
-  m_Center: {x: 0.44072378, y: 1.3399477, z: -0.00000035762795}
+  m_Size: {x: 6.63, y: 2.8366528, z: 3.58}
+  m_Center: {x: -0.46, y: 1.3399477, z: -0.82}
 --- !u!1 &518888290
 GameObject:
   m_ObjectHideFlags: 0
@@ -2470,7 +2457,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: UI_Menu
+          m_StringArgument: Stage5
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -3429,8 +3416,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 9.554071, y: 2.8366528, z: 5.224954}
-  m_Center: {x: 0.44072378, y: 1.3399477, z: -0.00000035762795}
+  m_Size: {x: 7.17, y: 2.8366528, z: 3.48}
+  m_Center: {x: -0.43, y: 1.3399477, z: -1.01}
 --- !u!1 &1027837256
 GameObject:
   m_ObjectHideFlags: 0
@@ -4396,7 +4383,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage2
+          m_StringArgument: Stage4
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -4874,7 +4861,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Single_Player
+          m_StringArgument: SelectLevel
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
