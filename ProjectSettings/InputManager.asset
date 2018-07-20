@@ -294,7 +294,39 @@ InputManager:
     axis: 2
     joyNum: 2
   - serializedVersion: 3
-    m_Name: Fire2
+    m_Name: Fire4
+    descriptiveName: Fire gamepad button for player 2
+    descriptiveNegativeName: 
+    negativeButton: 
+    positiveButton: joystick 2 button 0
+    altNegativeButton: 
+    altPositiveButton: 
+    gravity: 1000
+    dead: 0.001
+    sensitivity: 1000
+    snap: 0
+    invert: 0
+    type: 0
+    axis: 0
+    joyNum: 2
+  - serializedVersion: 3
+    m_Name: Fire5
+    descriptiveName: Fire gamepad button for player 2
+    descriptiveNegativeName: 
+    negativeButton: 
+    positiveButton: joystick 2 button 0
+    altNegativeButton: 
+    altPositiveButton: 
+    gravity: 1000
+    dead: 0.001
+    sensitivity: 1000
+    snap: 0
+    invert: 0
+    type: 0
+    axis: 0
+    joyNum: 2
+  - serializedVersion: 3
+    m_Name: Fire6
     descriptiveName: Fire gamepad button for player 2
     descriptiveNegativeName: 
     negativeButton: 
