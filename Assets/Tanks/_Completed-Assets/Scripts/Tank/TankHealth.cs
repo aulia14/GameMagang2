@@ -66,14 +66,14 @@ namespace Complete
             if(this.transform.CompareTag("Player"))
             {
                 lifeTank--;
-                Debug.Log("The player Death and Score life "+lifeTank);
+               // Debug.Log("The player Death and Score life "+lifeTank);
                 isPlayerDead = m_Dead;
                 RestartDead();
             }
             if(this.transform.CompareTag("Enemy"))
             {
                 poin+=100;
-                Debug.Log("The Enemy Death and Score Poin Gained "+poin);
+                //Debug.Log("The Enemy Death and Score Poin Gained "+poin);
                 isEnemyDead = m_Dead;
             }
             m_ExplosionParticles.transform.position = transform.position;
