@@ -136,6 +136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 37238696}
   - component: {fileID: 37238698}
+  - component: {fileID: 37238699}
   m_Layer: 0
   m_Name: barack
   m_TagString: Untagged
@@ -155,6 +156,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.099055, y: 3.4480247, z: 10.861499}
   m_Center: {x: -0.09116554, y: 1.2240124, z: 0.54885864}
+--- !u!208 &37238699
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 37238697}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 3.5, y: 4, z: 4.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &43252073
 GameObject:
   m_ObjectHideFlags: 0
@@ -838,6 +854,7 @@ GameObject:
   m_Component:
   - component: {fileID: 195514969}
   - component: {fileID: 195514971}
+  - component: {fileID: 195514972}
   m_Layer: 0
   m_Name: treedead (5)
   m_TagString: Untagged
@@ -857,6 +874,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 10.702283, z: 1}
   m_Center: {x: 0, y: 4.8511415, z: 0}
+--- !u!208 &195514972
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 195514970}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 11.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &210174747
 GameObject:
   m_ObjectHideFlags: 0
@@ -1205,6 +1237,7 @@ GameObject:
   m_Component:
   - component: {fileID: 270418206}
   - component: {fileID: 270418208}
+  - component: {fileID: 270418209}
   m_Layer: 0
   m_Name: tent_small (1)
   m_TagString: Untagged
@@ -1224,6 +1257,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.547245, y: 3.646902, z: 5.2547083}
   m_Center: {x: -0.110227585, y: 1.84, z: -0.24401045}
+--- !u!208 &270418209
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 270418207}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 3, y: 2.5, z: 3}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!4 &303250415
 Transform:
   m_ObjectHideFlags: 0
@@ -1283,7 +1331,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2926d2f12d79335489ebc24adc4f85d7, type: 2}
+  - {fileID: 2100000, guid: 65b34bd0b696fd64c809daa8ff1aac63, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1391,6 +1439,7 @@ GameObject:
   m_Component:
   - component: {fileID: 329967606}
   - component: {fileID: 329967608}
+  - component: {fileID: 329967609}
   m_Layer: 0
   m_Name: treedead
   m_TagString: Untagged
@@ -1410,6 +1459,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 10.702283, z: 1}
   m_Center: {x: 0, y: 4.8511415, z: 0}
+--- !u!208 &329967609
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 329967607}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 11.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &348564534
 GameObject:
   m_ObjectHideFlags: 0
@@ -1650,6 +1714,7 @@ GameObject:
   m_Component:
   - component: {fileID: 432097822}
   - component: {fileID: 432097824}
+  - component: {fileID: 432097825}
   m_Layer: 0
   m_Name: batu4 (6)
   m_TagString: Untagged
@@ -1669,6 +1734,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0768998, y: 1.5338199, z: 2.7069607}
   m_Center: {x: 0.02032538, y: 0.8007285, z: 0.06670106}
+--- !u!208 &432097825
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 432097823}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.07, y: 0.5, z: 1.475}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &441325043
 GameObject:
   m_ObjectHideFlags: 0
@@ -3043,6 +3123,7 @@ GameObject:
   m_Component:
   - component: {fileID: 698320034}
   - component: {fileID: 698320036}
+  - component: {fileID: 698320037}
   m_Layer: 0
   m_Name: tent_small (2)
   m_TagString: Untagged
@@ -3062,6 +3143,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.44, y: 2.96, z: 5.23}
   m_Center: {x: -0.11, y: 1.38, z: -0.64}
+--- !u!208 &698320037
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 698320035}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 3, y: 2.5, z: 3}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!4 &703906452
 Transform:
   m_ObjectHideFlags: 0
@@ -3220,6 +3316,7 @@ GameObject:
   m_Component:
   - component: {fileID: 745808572}
   - component: {fileID: 745808574}
+  - component: {fileID: 745808575}
   m_Layer: 0
   m_Name: batu4 (7)
   m_TagString: Untagged
@@ -3239,6 +3336,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0908544, y: 1.5970645, z: 2.4896526}
   m_Center: {x: -0.016721986, y: 0.29853252, z: -0.07328001}
+--- !u!208 &745808575
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 745808573}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.13, y: 0.5, z: 1.165}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!4 &753548366
 Transform:
   m_ObjectHideFlags: 0
@@ -3262,6 +3374,7 @@ GameObject:
   m_Component:
   - component: {fileID: 753548366}
   - component: {fileID: 753548368}
+  - component: {fileID: 753548369}
   m_Layer: 0
   m_Name: barack (1)
   m_TagString: Untagged
@@ -3281,6 +3394,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.099055, y: 3.4480247, z: 10.861499}
   m_Center: {x: -0.09116554, y: 1.2240124, z: 0.54885864}
+--- !u!208 &753548369
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 753548367}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 3.5, y: 3.5, z: 4.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &756561749
 GameObject:
   m_ObjectHideFlags: 0
@@ -4265,6 +4393,7 @@ GameObject:
   m_Component:
   - component: {fileID: 926581943}
   - component: {fileID: 926581945}
+  - component: {fileID: 926581946}
   m_Layer: 0
   m_Name: batu4 (8)
   m_TagString: Untagged
@@ -4284,6 +4413,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.2980072, y: 1, z: 2.4592855}
   m_Center: {x: 0.01171718, y: 0, z: 0.14576022}
+--- !u!208 &926581946
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 926581944}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.205, y: 0.885, z: 1.055}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &928991200
 GameObject:
   m_ObjectHideFlags: 0
@@ -4835,7 +4979,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2926d2f12d79335489ebc24adc4f85d7, type: 2}
+  - {fileID: 2100000, guid: 65b34bd0b696fd64c809daa8ff1aac63, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5294,6 +5438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1065360455}
   - component: {fileID: 1065360457}
+  - component: {fileID: 1065360458}
   m_Layer: 0
   m_Name: tent_small
   m_TagString: Untagged
@@ -5313,6 +5458,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.547245, y: 3.646902, z: 5.2547083}
   m_Center: {x: -0.110227585, y: 1.88, z: -0.24401045}
+--- !u!208 &1065360458
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1065360456}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 3, y: 2.36, z: 3.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!4 &1091772319
 Transform:
   m_ObjectHideFlags: 0
@@ -6131,7 +6291,7 @@ Transform:
   - {fileID: 1152021536}
   - {fileID: 1733604468}
   - {fileID: 314799396}
-  - {fileID: 1359006429}
+  - {fileID: 1472004140}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6304,72 +6464,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1359006428
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 185468, guid: 1cd1bdb2203012a40ab12a0d2fd7aa88, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1359006429}
-  - component: {fileID: 1359006430}
-  m_Layer: 0
-  m_Name: Directional light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4
-  m_IsActive: 1
---- !u!4 &1359006429
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 418400, guid: 1cd1bdb2203012a40ab12a0d2fd7aa88, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1359006428}
-  m_LocalRotation: {x: 0.424128, y: -0.24149925, z: 0.18229268, w: 0.853559}
-  m_LocalPosition: {x: 0, y: 10, z: 0}
-  m_LocalScale: {x: 1, y: 1.0000005, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1310500406}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!108 &1359006430
-Light:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 10878784, guid: 1cd1bdb2203012a40ab12a0d2fd7aa88,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1359006428}
-  m_Enabled: 1
-  serializedVersion: 8
-  m_Type: 1
-  m_Color: {r: 0.7647059, g: 0.7647059, b: 0.7647059, a: 1}
-  m_Intensity: 1
-  m_Range: 10
-  m_SpotAngle: 30
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 2
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 0.85
-    m_Bias: 0.05
-    m_NormalBias: 0
-    m_NearPlane: 0.2
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_Lightmapping: 4
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!1 &1371830901
 GameObject:
   m_ObjectHideFlags: 0
@@ -7117,6 +7211,71 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1468741436}
   m_Mesh: {fileID: 4300000, guid: facc5823b44152a48850bf448677d166, type: 3}
+--- !u!1 &1472004139
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1472004140}
+  - component: {fileID: 1472004141}
+  m_Layer: 0
+  m_Name: Directional light (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1472004140
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1472004139}
+  m_LocalRotation: {x: -0.13225327, y: -0.0046003833, z: -0.0103227515, w: -0.9911515}
+  m_LocalPosition: {x: 2.71, y: 134.37, z: -14.17}
+  m_LocalScale: {x: 1.07296, y: 1.07296, z: 1.07296}
+  m_Children: []
+  m_Father: {fileID: 1310500406}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 15.193001, y: 360.704, z: 361.287}
+--- !u!108 &1472004141
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1472004139}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 0.95686275, g: 0.8862745, b: 0.6745098, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 0.75
+    m_Bias: 0.05
+    m_NormalBias: 1.89
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1 &1477137381
 GameObject:
   m_ObjectHideFlags: 0
@@ -7361,6 +7520,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1487627151}
   - component: {fileID: 1487627153}
+  - component: {fileID: 1487627154}
   m_Layer: 0
   m_Name: batu4 (5)
   m_TagString: Untagged
@@ -7380,6 +7540,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.2980072, y: 1, z: 2.4592855}
   m_Center: {x: 0.01171718, y: 0, z: 0.14576022}
+--- !u!208 &1487627154
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1487627152}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.265, y: 0.5, z: 1.07}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1490277836
 GameObject:
   m_ObjectHideFlags: 0
@@ -7829,6 +8004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1564929577}
   - component: {fileID: 1564929579}
+  - component: {fileID: 1564929580}
   m_Layer: 0
   m_Name: treedead (2)
   m_TagString: Untagged
@@ -7848,6 +8024,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 10.702283, z: 1}
   m_Center: {x: 0, y: 4.8511415, z: 0}
+--- !u!208 &1564929580
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1564929578}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 11.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1601469876
 GameObject:
   m_ObjectHideFlags: 0
@@ -8278,7 +8469,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2926d2f12d79335489ebc24adc4f85d7, type: 2}
+  - {fileID: 2100000, guid: 65b34bd0b696fd64c809daa8ff1aac63, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8889,6 +9080,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1765654535}
   - component: {fileID: 1765654537}
+  - component: {fileID: 1765654538}
   m_Layer: 0
   m_Name: treedead (3)
   m_TagString: Untagged
@@ -8908,6 +9100,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 10.702283, z: 1}
   m_Center: {x: 0, y: 4.8511415, z: 0}
+--- !u!208 &1765654538
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1765654536}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 11.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1785963327
 GameObject:
   m_ObjectHideFlags: 0
@@ -9129,6 +9336,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1824674379}
   - component: {fileID: 1824674381}
+  - component: {fileID: 1824674382}
   m_Layer: 0
   m_Name: treedead (1)
   m_TagString: Untagged
@@ -9148,6 +9356,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 10.702283, z: 1}
   m_Center: {x: 0, y: 4.8511415, z: 0}
+--- !u!208 &1824674382
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1824674380}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 6, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
 --- !u!1 &1830542012
 GameObject:
   m_ObjectHideFlags: 0
@@ -10235,7 +10458,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 2926d2f12d79335489ebc24adc4f85d7, type: 2}
+  - {fileID: 2100000, guid: 65b34bd0b696fd64c809daa8ff1aac63, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10718,6 +10941,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2129625019}
   - component: {fileID: 2129625021}
+  - component: {fileID: 2129625022}
   m_Layer: 0
   m_Name: treedead (4)
   m_TagString: Untagged
@@ -10737,3 +10961,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 10.702283, z: 1}
   m_Center: {x: 0, y: 4.8511415, z: 0}
+--- !u!208 &2129625022
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2129625020}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 11.5, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
