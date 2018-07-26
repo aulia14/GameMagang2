@@ -77,21 +77,21 @@ namespace Complete
             life = TankHealth.lifeTank;
             point = TankHealth.poin;
             if(IsPlayerDeath()){
-                 Debug.Log("Your Life Decrease bye one and remain "+life);
+                //ebug.Log("Your Life Decrease bye one and remain "+life);
                 if(life>=0)
                 {
                     Respawn();
                 }else if(life<=0)
                 {
                     life =0;
-                    Debug.Log("Game Over :"+life);
+                  //Debug.Log("Game Over :"+life);
                     m_GameOverPanel.SetActive(true);
                     Time.timeScale =0f;
                 }
             }
-            Debug.Log("Cek Player: "+ IsPlayerDeath());
+           //ebug.Log("Cek Player: "+ IsPlayerDeath());
             if(IsEnemyExist()){
-                Debug.Log("MAti Kabeh");
+             // Debug.Log("MAti Kabeh");
                 Time.timeScale =0f;
                 m_WinGamePanel.SetActive(true);
             }
@@ -132,10 +132,9 @@ namespace Complete
         for (int i = 1; i < m_Tanks.Length; i++)
         {
             if (m_Tanks[i].m_Instance.activeSelf && m_Tanks[i].m_Instance.transform.CompareTag("Enemy")){
-                Debug.Log("Test");
+                //bug.Log("Test");
                  numTanksLeft++;
             }
-            Debug.Log("You are survivor");
                
         }
         return numTanksLeft <= 0;

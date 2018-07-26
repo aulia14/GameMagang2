@@ -14,7 +14,9 @@ public class AttackAction : Action
     {
         RaycastHit hit;
 
-        //Debug.DrawRay (controller.eyes.position, controller.eyes.forward.normalized * controller.enemyStats.attackRange, Color.red);
+        Debug.DrawRay (controller.eyes.position, controller.eyes.forward.normalized * controller.enemyStats.attackRange, Color.red);
+        Debug.DrawRay(controller.eyes.position, controller.eyes.right.normalized * controller.enemyStats.attackRange, Color.red);
+        Debug.DrawRay(controller.eyes.position, -controller.eyes.right.normalized * controller.enemyStats.attackRange, Color.red);
 
         if (Physics.SphereCast (controller.eyes.position, controller.enemyStats.lookSphereCastRadius, controller.eyes.forward, out hit, controller.enemyStats.attackRange)
             && hit.collider.CompareTag ("Player")) 
@@ -22,6 +24,24 @@ public class AttackAction : Action
             if (controller.CheckIfCountDownElapsed (controller.enemyStats.attackRate)) 
             {
                 controller.tankShooting.Fire (controller.enemyStats.attackForce, controller.enemyStats.attackRate);
+            }
+        }
+        //Look right
+        if (Physics.SphereCast(controller.eyes.position, controller.enemyStats.lookSphereCastRadius, controller.eyes.right * .5f, out hit, controller.enemyStats.lookRange)
+            && hit.collider.CompareTag("Player"))
+        {
+            if (controller.CheckIfCountDownElapsed(controller.enemyStats.attackRate))
+            {
+                controller.tankShooting.Fire(controller.enemyStats.attackForce, controller.enemyStats.attackRate);
+            }
+        }
+        //Look Left
+        if (Physics.SphereCast(controller.eyes.position, controller.enemyStats.lookSphereCastRadius, -controller.eyes.right * .5f, out hit, controller.enemyStats.lookRange)
+            && hit.collider.CompareTag("Player"))
+        {
+            if (controller.CheckIfCountDownElapsed(controller.enemyStats.attackRate))
+            {
+                controller.tankShooting.Fire(controller.enemyStats.attackForce, controller.enemyStats.attackRate);
             }
         }
     }

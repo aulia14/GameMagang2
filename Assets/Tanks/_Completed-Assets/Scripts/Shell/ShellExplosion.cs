@@ -29,8 +29,9 @@ namespace Complete
                     continue;
                 targetRigidbody.AddExplosionForce (m_ExplosionForce, transform.position, m_ExplosionRadius);
                 TankHealth targetHealth = targetRigidbody.GetComponent<TankHealth> ();
-                if (!targetHealth)
-                    continue;
+                if (!targetHealth) continue;
+
+                    
                 float damage = CalculateDamage (targetRigidbody.position);
                 targetHealth.TakeDamage (damage);
             }
