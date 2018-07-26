@@ -561,7 +561,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 2.374, y: 0.98600006, z: 3.808}
   m_MoveThreshold: 0.1
-  m_Carve: 0
+  m_Carve: 1
   m_CarveOnlyStationary: 1
   m_Center: {x: 1.348, y: -0.018000001, z: -0.794}
   m_TimeToStationary: 0.5
@@ -662,7 +662,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 2.374, y: 0.98600006, z: 3.808}
   m_MoveThreshold: 0.1
-  m_Carve: 0
+  m_Carve: 1
   m_CarveOnlyStationary: 1
   m_Center: {x: 1.348, y: -0.018000001, z: -0.794}
   m_TimeToStationary: 0.5
@@ -771,7 +771,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 2.213, y: 1.7520001, z: 2.6550002}
   m_MoveThreshold: 0.1
-  m_Carve: 0
+  m_Carve: 1
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.45000002, y: 1.7190001, z: 0.135}
   m_TimeToStationary: 0.5
@@ -3017,7 +3017,7 @@ GameObject:
   - component: {fileID: 699268853}
   - component: {fileID: 699268852}
   m_Layer: 5
-  m_Name: Stage5
+  m_Name: Stage9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3073,7 +3073,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: STAGE 5
+  m_Text: STAGE 9
 --- !u!222 &699268853
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3177,7 +3177,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 2.213, y: 1.7520001, z: 2.6550002}
   m_MoveThreshold: 0.1
-  m_Carve: 0
+  m_Carve: 1
   m_CarveOnlyStationary: 1
   m_Center: {x: 0.45000002, y: 1.7190001, z: 0.135}
   m_TimeToStationary: 0.5
@@ -4855,31 +4855,31 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 6e4d8dfe03882c54380948659f725233, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 76.6
+      value: 76
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6e4d8dfe03882c54380948659f725233, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.2
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6e4d8dfe03882c54380948659f725233, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 81.3
+      value: 81.5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6e4d8dfe03882c54380948659f725233, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.043762244
+      value: 0.044199497
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6e4d8dfe03882c54380948659f725233, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.97956324
+      value: 0.9989653
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6e4d8dfe03882c54380948659f725233, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.196212
+      value: -0.010560678
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6e4d8dfe03882c54380948659f725233, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.0064568035
+      value: 0.0017969117
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6e4d8dfe03882c54380948659f725233, type: 3}
       propertyPath: m_RootOrder
@@ -4899,15 +4899,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6e4d8dfe03882c54380948659f725233, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 181.851
+      value: 179.848
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6e4d8dfe03882c54380948659f725233, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 22.572
+      value: 1.218
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6e4d8dfe03882c54380948659f725233, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 5.485
+      value: 5.065
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6e4d8dfe03882c54380948659f725233, type: 3}
@@ -4931,7 +4931,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 7.6180005, y: 8.357, z: 4.952}
   m_MoveThreshold: 0.1
-  m_Carve: 0
+  m_Carve: 1
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 8.282001, z: 0}
   m_TimeToStationary: 0.5
@@ -5813,7 +5813,7 @@ GameObject:
   - component: {fileID: 1219168809}
   - component: {fileID: 1219168808}
   m_Layer: 5
-  m_Name: Stage5
+  m_Name: Stage9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5869,7 +5869,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: STAGE 5
+  m_Text: STAGE 9
 --- !u!222 &1219168809
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6566,7 +6566,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 2.374, y: 0.98600006, z: 3.808}
   m_MoveThreshold: 0.1
-  m_Carve: 0
+  m_Carve: 1
   m_CarveOnlyStationary: 1
   m_Center: {x: 1.348, y: -0.018000001, z: -0.794}
   m_TimeToStationary: 0.5
@@ -7242,7 +7242,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage5
+          m_StringArgument: Stage9
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -8026,7 +8026,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1599720626
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8092,7 +8092,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: UI_Menu
+          m_StringArgument: Stage10
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -9107,7 +9107,7 @@ NavMeshObstacle:
   m_Shape: 1
   m_Extents: {x: 1.8550001, y: 4.7660003, z: 1.8500001}
   m_MoveThreshold: 0.1
-  m_Carve: 0
+  m_Carve: 1
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 4.671, z: 0}
   m_TimeToStationary: 0.5
@@ -9734,7 +9734,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage5
+          m_StringArgument: Stage9
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -10623,7 +10623,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 181db46f650e5be43bfef11686c62b2e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.1
+      value: -0.2
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 181db46f650e5be43bfef11686c62b2e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10681,7 +10681,7 @@ NavMeshObstacle:
   m_Enabled: 1
   serializedVersion: 3
   m_Shape: 1
-  m_Extents: {x: 1.425, y: 2, z: 1.355}
+  m_Extents: {x: 1.4, y: 2.04, z: 1.49}
   m_MoveThreshold: 0.1
   m_Carve: 1
   m_CarveOnlyStationary: 1
@@ -10697,8 +10697,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 2.8752801, y: 2.6451945, z: 3.0148802}
+  m_Center: {x: 0.047651615, y: 0.82259744, z: -0.002847526}
 --- !u!1 &2095813576
 GameObject:
   m_ObjectHideFlags: 0

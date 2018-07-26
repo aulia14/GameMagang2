@@ -679,7 +679,7 @@ NavMeshObstacle:
   m_Shape: 0
   m_Extents: {x: 0.5, y: 2.795, z: 0.5}
   m_MoveThreshold: 0.1
-  m_Carve: 0
+  m_Carve: 1
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 1.28, z: 0}
   m_TimeToStationary: 0.5
@@ -1157,7 +1157,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage4
+          m_StringArgument: Stage6
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -1810,12 +1810,12 @@ GameObject:
   - component: {fileID: 475708257}
   - component: {fileID: 475708256}
   m_Layer: 5
-  m_Name: Stage5
+  m_Name: Stage6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &475708255
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1866,7 +1866,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: STAGE 5
+  m_Text: STAGE 6
 --- !u!222 &475708257
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2699,7 +2699,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage5
+          m_StringArgument: Stage7
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -3864,6 +3864,18 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: -0.09, y: 0.62, z: 0}
   m_TimeToStationary: 0.5
+--- !u!65 &1035580893
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1035580891}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.48, y: 2.22, z: 2.27}
+  m_Center: {x: 0, y: 0.9, z: 0}
 --- !u!1 &1057262411
 GameObject:
   m_ObjectHideFlags: 0
@@ -4804,7 +4816,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: Stage4
+          m_StringArgument: Stage6
           m_BoolArgument: 0
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
@@ -5986,13 +5998,25 @@ NavMeshObstacle:
   m_GameObject: {fileID: 1398404386}
   m_Enabled: 1
   serializedVersion: 3
-  m_Shape: 0
-  m_Extents: {x: 1.37, y: 1.735, z: 1.37}
+  m_Shape: 1
+  m_Extents: {x: 1.095, y: 0.98, z: 1.355}
   m_MoveThreshold: 0.1
-  m_Carve: 1
+  m_Carve: 0
   m_CarveOnlyStationary: 1
-  m_Center: {x: -0.09, y: 0.62, z: 0}
+  m_Center: {x: 0, y: 1.02, z: 0}
   m_TimeToStationary: 0.5
+--- !u!65 &1398404388
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1398404386}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.24, y: 4.57, z: 2.63}
+  m_Center: {x: 0, y: -0.19, z: 0}
 --- !u!1 &1410331032
 GameObject:
   m_ObjectHideFlags: 0
@@ -6378,7 +6402,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1470211043
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8278,7 +8302,7 @@ GameObject:
   - component: {fileID: 1867113502}
   - component: {fileID: 1867113501}
   m_Layer: 5
-  m_Name: Stage4
+  m_Name: Stage6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8334,7 +8358,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: STAGE 4
+  m_Text: STAGE 6
 --- !u!222 &1867113502
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8650,6 +8674,18 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0.95, z: 0}
   m_TimeToStationary: 0.5
+--- !u!65 &2037208896
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2037208894}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.52, y: 2.5, z: 2.53}
+  m_Center: {x: 0, y: 0.9, z: 0}
 --- !u!1 &2090273111
 GameObject:
   m_ObjectHideFlags: 0
@@ -8863,6 +8899,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2112176572}
   - component: {fileID: 2112176573}
+  - component: {fileID: 2112176574}
   m_Layer: 0
   m_Name: building1
   m_TagString: Untagged
@@ -8896,6 +8933,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 9.13, y: 4.27, z: 15.06}
   m_Center: {x: 4.78, y: 1.78, z: 5.81}
+--- !u!208 &2112176574
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2112176571}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 29.25, y: 0.5, z: 10.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 25.9, y: -0.25, z: 6.91}
+  m_TimeToStationary: 0.5
 --- !u!1 &2131081769
 GameObject:
   m_ObjectHideFlags: 0
