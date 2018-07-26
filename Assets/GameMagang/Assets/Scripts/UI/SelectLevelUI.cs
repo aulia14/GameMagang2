@@ -34,14 +34,10 @@ public class SelectLevelUI : MonoBehaviour {
 	public void NextLevel()
 	{
 		indexLevel++;
-        if (indexLevel > 10) indexLevel = 11;
-		//stage.transform.GetChild(indexLevel).gameObject.SetActive(true);
 	}
 	public void PreviousLevel()
 	{
 		indexLevel--;
-        
-        //stage.transform.GetChild(indexLevel).gameObject.SetActive(true);
     }
 
 
