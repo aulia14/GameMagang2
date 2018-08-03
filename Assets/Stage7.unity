@@ -150,7 +150,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: bdd33e338c2df0844b651b2bedd885af, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: bdd33e338c2df0844b651b2bedd885af, type: 3}
       propertyPath: m_LocalScale.x
@@ -179,8 +179,8 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 100006, guid: bdd33e338c2df0844b651b2bedd885af, type: 3}
   m_PrefabInternal: {fileID: 18722121}
---- !u!136 &18722124
-CapsuleCollider:
+--- !u!65 &18722124
+BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -188,10 +188,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 4.4311495
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.7155746, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 6.81, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!208 &18722125
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -2272,7 +2271,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: bdd33e338c2df0844b651b2bedd885af, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: bdd33e338c2df0844b651b2bedd885af, type: 3}
       propertyPath: m_LocalScale.x
@@ -2301,8 +2300,8 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 100006, guid: bdd33e338c2df0844b651b2bedd885af, type: 3}
   m_PrefabInternal: {fileID: 426637794}
---- !u!136 &426637797
-CapsuleCollider:
+--- !u!65 &426637797
+BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -2310,10 +2309,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 4.4311495
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.7155746, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 6.81, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!208 &426637798
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -3045,8 +3043,8 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 100006, guid: bdd33e338c2df0844b651b2bedd885af, type: 3}
   m_PrefabInternal: {fileID: 580884152}
---- !u!136 &580884155
-CapsuleCollider:
+--- !u!65 &580884155
+BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -3054,10 +3052,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 3.9384782
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.4692389, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 6.81, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!208 &580884156
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -4555,7 +4552,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: bdd33e338c2df0844b651b2bedd885af, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: bdd33e338c2df0844b651b2bedd885af, type: 3}
       propertyPath: m_LocalScale.x
@@ -4584,8 +4581,8 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 100006, guid: bdd33e338c2df0844b651b2bedd885af, type: 3}
   m_PrefabInternal: {fileID: 925453866}
---- !u!136 &925453869
-CapsuleCollider:
+--- !u!65 &925453869
+BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -4593,10 +4590,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 4.4311495
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.7155746, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 6.81, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!208 &925453870
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -5182,7 +5178,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: bdd33e338c2df0844b651b2bedd885af, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: bdd33e338c2df0844b651b2bedd885af, type: 3}
       propertyPath: m_LocalScale.x
@@ -5211,8 +5207,8 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 100006, guid: bdd33e338c2df0844b651b2bedd885af, type: 3}
   m_PrefabInternal: {fileID: 1051518924}
---- !u!136 &1051518927
-CapsuleCollider:
+--- !u!65 &1051518927
+BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -5220,10 +5216,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 4.4311495
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.7155746, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 6.81, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!208 &1051518928
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -7300,7 +7295,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: bdd33e338c2df0844b651b2bedd885af, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: bdd33e338c2df0844b651b2bedd885af, type: 3}
       propertyPath: m_LocalScale.x
@@ -7329,8 +7324,8 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 100006, guid: bdd33e338c2df0844b651b2bedd885af, type: 3}
   m_PrefabInternal: {fileID: 1449072299}
---- !u!136 &1449072302
-CapsuleCollider:
+--- !u!65 &1449072302
+BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -7338,10 +7333,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 4.4311495
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.7155746, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 6.81, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!208 &1449072303
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -9198,8 +9192,8 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 100006, guid: bdd33e338c2df0844b651b2bedd885af, type: 3}
   m_PrefabInternal: {fileID: 1760755985}
---- !u!136 &1760755988
-CapsuleCollider:
+--- !u!65 &1760755988
+BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -9207,10 +9201,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 4.197189
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.5985947, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 6.81, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!208 &1760755989
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -10050,8 +10043,8 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 100006, guid: bdd33e338c2df0844b651b2bedd885af, type: 3}
   m_PrefabInternal: {fileID: 1919918617}
---- !u!136 &1919918620
-CapsuleCollider:
+--- !u!65 &1919918620
+BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -10059,10 +10052,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 4.4311495
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.7155746, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 6.81, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!208 &1919918621
 NavMeshObstacle:
   m_ObjectHideFlags: 0
@@ -10183,7 +10175,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: bdd33e338c2df0844b651b2bedd885af, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: bdd33e338c2df0844b651b2bedd885af, type: 3}
       propertyPath: m_LocalScale.x
@@ -10212,8 +10204,8 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 100006, guid: bdd33e338c2df0844b651b2bedd885af, type: 3}
   m_PrefabInternal: {fileID: 1979082224}
---- !u!136 &1979082227
-CapsuleCollider:
+--- !u!65 &1979082227
+BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -10221,10 +10213,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 4.4311495
-  m_Direction: 1
-  m_Center: {x: 0, y: 1.7155746, z: 0}
+  serializedVersion: 2
+  m_Size: {x: 1, y: 6.81, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!208 &1979082228
 NavMeshObstacle:
   m_ObjectHideFlags: 0

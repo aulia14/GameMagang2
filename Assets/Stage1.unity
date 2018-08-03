@@ -2542,8 +2542,8 @@ Transform:
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 8d8760d4504814540ba00eaa1d1f43ac, type: 3}
   m_PrefabInternal: {fileID: 538487345}
---- !u!136 &538487348
-CapsuleCollider:
+--- !u!65 &538487348
+BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -2551,10 +2551,9 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 4.4508476
-  m_Height: 12.881764
-  m_Direction: 1
-  m_Center: {x: 0.1361232, y: 5.436563, z: -0.4096073}
+  serializedVersion: 2
+  m_Size: {x: 8.901694, y: 12.881765, z: 8.558813}
+  m_Center: {x: 0.1361232, y: 5.4365635, z: -0.4096073}
 --- !u!208 &538487349
 NavMeshObstacle:
   m_ObjectHideFlags: 0
